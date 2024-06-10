@@ -1,0 +1,58 @@
+.header
+{
+    height: 34vw;
+    margin: 30px auto;
+    
+    background-image:linear-gradient(rgba(139, 139, 139, 0.2),rgba(58, 58, 58, 0.5)), url('public/header_img.png') ;
+
+    background-size:contain;
+    position: relative;
+    background-position: 100%;
+}
+.header-contents
+{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 1.5vw;
+   max-width: 50%;
+   bottom: 10%;
+   left: 3vw;
+   animation: fadein 3s;
+}
+.header-contents h2{
+    font-size: 2em;
+   color:#fff;
+    font-weight: 500;
+}
+.header-contents p
+{
+    font-size: 1em;
+    font-weight: 200;
+    color: white;
+}
+.header-contents span{
+    color: #ff8402;
+    font-size:1.3em ;
+   
+}
+
+.header-contents button{
+    
+    height: 40px;
+    width: 10rem;
+    background: white;
+    border: 2px solid #49557e;
+    border-radius: 5px;
+    color: #49557e;
+    font-size: 1.2em;
+    transition: .3s;
+    cursor: pointer;
+}
+.header-contents button:hover{
+    background: #49557e;
+    color: white;
+    border: 2px solid tomato;
+
+}
